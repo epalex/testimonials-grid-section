@@ -57,6 +57,7 @@ article h2 {
   font-size: 13px;
   line-height: 13px;
   color: white;
+  margin-bottom: 4px;
 }
 
 .role {
@@ -72,6 +73,9 @@ article h2 {
   background-color: #733fc8;
   border-radius: 8px;
   box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0;
 }
 
 .daniel h2 {
