@@ -218,12 +218,27 @@ footer {
 
 @media screen and (min-width: 992px) {
   .container {
+    margin-top: 160px;
+    margin-bottom: 160px;
     width: 80%;
+    padding-top: 0;
+    padding-bottom: 0;
     display: grid;
+    column-gap: 24px;
+    row-gap: 30px;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: auto;
+    grid-template-columns: 265px 265px 265px;
     grid-template-areas:
       "daniel daniel jonathan kira"
       "jeanette patrick patrick kira";
+  }
+
+  .container article {
+    width: 100%;
+    margin: 0;
+  }
+
+  .daniel h2 {
+    margin-bottom: 16px;
   }
 }

@@ -15,3 +15,7 @@
 ## Author
 
 - Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
+
+## Areas for improvements
+
+- responsive design to cover all possible screen sizes
